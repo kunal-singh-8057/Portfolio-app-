@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.d4 h4{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: grey;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+.d4 h1{
+
+    font-size: 50px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    margin-left: 40%;
+    margin-top: 1%;
+
+}
+
+.d5
+{
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 38%;
+    margin-top: 3%;
+}
+
+.img9
+{
+  
+    width: 7%;
+    margin-left: 5%;
+}
+
+.d5 a{
+margin-left: 2%;
+text-decoration: none;
+color: black;
+display: flex;
+align-items: center;
+font-family: "Poppins", serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.d5 a:hover
+{
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+.img19
+{
+    width: 5%;
+    margin-left: 5%;
+}
+
+.nva{
+    margin-left: 2%;
+}
+
+@media (max-width:720px) {
+    
+    .d4{
+        margin-top: 30%;
+        position: absolute;
+        margin-left: -10%;
+       
+    }
+
+    .d4 h4
+    {
+        position: absolute;
+        font-size: 35px;
+        margin-top: -15%;
+        width: 100%;
+        margin-left: 26%;
+    }
+
+    .d4 h1 
+    {
+        position: absolute;
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 22%;
+        font-size: 45px;
+    }
+
+
+    .d5
+    {
+        position: relative;
+        margin-top: 35%;
+        width: 85%;
+        margin-left: 12%;
+        height: 40vh;
+        display: inline-block;
+        align-items: center;
+    }
+
+    .img9{
+        position: absolute;
+        width: 20%;
+        margin-top: 5%;
+        margin-left: 38%;
+
+    }
+
+    .img19{
+        margin-top: 45%;
+        width: 18%;
+        margin-left: 39%;
+    }
+
+   .d5 a {
+    position: absolute;
+    font-size: 25px;
+    margin-top: 26%;
+    margin-left: 8%;
+   }
+
+   .nva
+   {
+    position: absolute;
+    margin-left: 35%;
+    font-size: 35px;
+    margin-top: 5%;
+   }
+  
+   .stocks
+   {
+    visibility: hidden;
+   }
+}

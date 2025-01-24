@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.img1
+{
+    width: 30%;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+.text1{
+    margin-left: 60%;
+    margin-top: -25%;
+}
+
+.text1 h4{
+    color: #808080 ;
+    font-size: 30px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 13%;
+}
+
+.text1 h1{
+    font-size: 65px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 8.5%;
+}
+
+.text1 h2{
+    color: #808080 ;
+    font-size: 35px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 6%;
+}
+
+.btn1
+{
+    padding: 20px 40px;
+    border: 1px solid black;
+    margin-left: 2%;
+    border-radius: 30px;
+    background-color: white;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    font-weight: 450;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn1:hover
+{
+    background-color: black;
+    color: white;
+}
+
+
+
+.btn2
+{
+    padding: 20px 40px;
+    border: 1px solid black;
+    margin-left: 2%;
+    border-radius: 30px;
+    background-color: #242124;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    font-weight: 450;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.imgset1
+{
+    margin-left: 68%;
+    margin-top: 2%;
+
+}
+
+.img2
+{
+    width: 8%;
+}
+
+.img3
+{
+    width: 8%;
+    margin-left: 2%;
+}
+
+
+@media (max-width:720px) {
+
+  body{
+    overflow-x: hidden;
+  }
+  
+  .img1
+  {
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 17%;
+    position: absolute;
+  }
+
+  .text1{
+    margin-top:100%;
+    width: 100%;
+    position: absolute;
+    margin-left: 14%;
+  }
+
+  .text1 h4
+  {
+    font-size: 30px;
+    margin-left: 20%;
+    position: absolute;
+    margin-top: -5%;
+  }
+
+  .text1 h1
+  {
+   margin-top: 12%;
+   position: absolute;
+   margin-left: 14%;
+   font-size: 60px;
+  }
+
+  .text1 h2
+  {
+   font-size: 35px;
+   width: 100%;
+   margin-left: 5%;
+   display:flex;
+   align-items: center;
+   position: absolute;
+   margin-top: 45%;
+  }
+
+  .btn1{
+    position: absolute;
+    margin-top:65%;
+    margin-left: -10%;
+    padding: 20px 40px; 
+    border-radius: 60px;
+    font-size: 15px;
+  }
+
+  .btn2{
+    position: absolute;
+    margin-top: 65%;
+    margin-left: 33%;
+    padding: 20px 40px; 
+    border-radius: 50px;
+    font-size: 15px;
+  }
+
+  .imgset1{
+
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 20vh;
+    margin-top: 180%;
+    margin-left: 42%;
+  }
+
+  .img2
+  {
+    width: 10%;
+    position: absolute;
+    margin-left: -5%;
+
+  }
+
+  
+  .img3
+  {
+    width: 10%;
+    position: absolute;
+    margin-left: 8%;
+  }
+
+ 
+}

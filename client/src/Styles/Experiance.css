@@ -1,0 +1,215 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.em
+{
+    color: gray;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 45%;
+    margin-top: 1%;
+}
+
+.ex
+{
+    font-size: 50px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 40%;
+}
+
+.text4
+{
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 42vh;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.text4 h1
+{
+    font-size: 30px;
+    margin-left: 14%;
+    margin-top: 2%;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: gray;
+}
+
+.d3
+{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.d3  li 
+{
+    list-style: none;
+    margin-left: 5%;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+.img8
+{
+    width: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.ex2
+{
+    margin-top: -5%;
+    margin-left: 15%;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: gray;
+    font-size: 18px;
+    
+}
+
+
+.alter
+{
+    margin-left: 50%;
+    margin-top: -50%;
+}
+
+
+.alter img{
+    width: 8%;
+}
+
+
+.alter h4{
+    font-size: 18px;
+    margin-top: -10%;
+    margin-left: 18%;
+}
+
+.text5
+{
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 42vh;
+    margin-top: 5%;
+    margin-left: 55%;
+    margin-top: -20%;
+}
+
+
+.text5 h1{
+    font-size: 30px;
+    margin-left: 14%;
+    margin-top: 2%;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: gray;
+}
+
+
+
+.wp
+{
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 46vh;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.wp h1{
+    color: gray;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 20%;
+
+}
+
+@media (max-width:720px) {
+    
+    .coco
+    {
+        visibility: hidden;
+    }
+
+    .em{
+        margin-left: 40%;
+    }
+
+    .ex
+    {
+        font-size: 40px;
+        margin-left: 25%;
+     
+    }
+
+    .text4{
+        width: 90%;
+        margin-top: 8%;
+        margin-left: 6%;
+    }
+
+    .text4 h1
+    {
+        font-size: 23px;
+        margin-left: 9%;
+    }
+
+    .d3{
+        margin-top: 4%;
+    }
+
+    .alter
+    {
+        margin-top: -90%;
+        margin-left: 52%;
+    }
+
+    
+
+    .text5
+    {
+        width: 90%;
+        margin-top: 8%;
+        margin-left: 6%;
+    }
+
+    .text5 h1
+    {
+        font-size: 23px;
+        margin-left: 9%;
+    }
+
+    .wp
+    {
+        width: 90%;
+        margin-top: 8%;
+        margin-left: 6%;
+    }
+
+    .wp h1 
+    {
+        font-size: 23px;
+        margin-left: 21%;
+    }
+}

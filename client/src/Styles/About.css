@@ -1,0 +1,291 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.aheading
+{
+    display: inline-block;
+    align-items: baseline;
+    margin-left: 45%;
+    margin-top: 5%;
+
+    
+}
+
+.aheading h4{
+    color: gray;
+    margin-top: 15%;
+    margin-left: 18%;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aheading h1{
+    font-size: 50px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.img4
+{
+    width: 25%;
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.text2
+{
+    width: 30%;
+    border: 1px solid black;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-top: -25%;
+}
+
+.img5
+{
+    width: 8%;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+.text2 h2{
+    margin-left: 38%;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.g
+{
+color: gray;
+margin-left: 40%;
+font-size: 20px;
+font-family: "Poppins", serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.f
+{
+    position: absolute;
+    color: grey;
+    margin-left: 9%;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.text3
+{
+    width: 30%;
+    border: 1px solid black;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 68%;
+    margin-top: -15%;
+
+}
+
+.text3 h2
+{
+ 
+    margin-left: 38%;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;   
+}
+
+
+.e1
+{
+    position: absolute;
+    color: grey;
+    margin-left: 8%;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.e2{
+
+    position: absolute;
+    color: grey;
+    margin-left: 9%;
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+ 
+}
+
+
+.p1
+{
+    width: 65%;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight:500;
+    font-style: normal;
+    margin-top: 3%;
+    margin-left: 35%;
+    color: gray;
+}
+
+.img7
+{
+    width: 5%;
+    rotate: -90deg;
+    margin-left: 87%;
+}
+
+@media (max-width:720px) {
+
+    .aheading
+    {
+        margin-top: -15%;
+        width: 100%;
+        position: absolute;
+        margin-left: 2%;
+    }
+
+    .aheading h4
+    {
+        position: absolute;
+        margin-top: 25%;
+        font-size: 25px;
+    }
+
+
+    .aheading h1
+    {
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 16%;
+        font-size: 50px;
+    }
+
+    .d1
+    {
+
+        margin-top: 45%;
+        position: absolute;
+        width: 100%;
+        margin-top: -300%;
+    }
+
+  .img4
+  {
+    position: absolute;
+    width: 50%;
+    margin-left: 28%;
+  }
+
+    .text2
+    {
+      position: absolute;
+      width: 85%;
+      margin-top: 155%;
+      margin-left: 9%;
+    }
+
+    .img5
+    {
+        width: 12%;
+        margin-top: 7%;
+        position: absolute;
+    }
+
+    .g{
+        margin-top: -7%;
+        font-size: 25px;
+        margin-left: 33%;
+    }
+
+    .f{
+        margin-top: -1%;
+        font-size: 25px;
+        margin-left: 9%;
+    }
+
+
+    .text2 h2
+    {
+        margin-top: 12%;
+        margin-left: 29%;
+        font-size: 25px;
+        
+    }
+
+    .text3
+    {
+        position: absolute;
+        width: 85%;
+        margin-top: 240%;
+        margin-left: 9%;
+    }
+
+
+    .text3 h2
+    {
+        margin-top: 12%;
+        font-size: 25px;
+        margin-left: 30%;
+        
+    }
+
+
+    .e1
+    {
+        margin-top: -4%;
+        margin-left: 6%;
+        font-size: 23px;
+    }
+
+    .e2
+    {
+        margin-top: 8%;
+        font-size: 20px;
+        margin-left: 15%;
+    }
+
+    .img4{
+        position: absolute;
+        margin-top: 375%;
+    }
+    
+
+    .p1
+    {
+        position: absolute;
+        margin-top: 350%;
+        width: 100%;
+        margin-left: 1%;
+        font-size: 15px;
+        word-wrap: break-word;
+    }
+
+    
+
+    .smoothss
+    {
+        visibility: hidden;
+    }
+
+}

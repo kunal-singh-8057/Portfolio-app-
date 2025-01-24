@@ -1,0 +1,85 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.atext
+{
+    display: inline-block;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+
+.atext h4
+{
+    color: gray;
+    font-size: 20px;
+    margin-left: 10%;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.atext h1{
+    font-size: 50px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;   
+}
+
+.form1{
+    margin-left: 37%;
+    margin-top: 5%;
+}
+
+.form1 input
+{
+    width: 30%;
+    border: 1px solid black;
+    height: 5vh;
+    border-radius: 10px;
+
+}
+
+.form1 button{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 10.5%;
+}
+
+.li
+{
+    font-size: 50px;
+    margin-left: 36%;
+    margin-top: 5%;
+}
+
+.dset
+{
+    margin-left: 1%;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.dset h4
+{
+    margin-left: 5%;
+}
+
+.dset button{
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+
