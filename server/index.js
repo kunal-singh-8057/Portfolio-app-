@@ -14,7 +14,9 @@ app.use(express.json());
 app.use(router);
 
 connectDB();
-
+app.get("/",(req,res)=>{
+    res.send("Hello World")
+})
 app.listen(`${PORT}`,()=>{
     console.log(`The server is running at : http://localhost:${PORT}`)
 })
