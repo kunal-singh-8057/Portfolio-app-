@@ -19,7 +19,7 @@ const Home = () => {
       <br></br>
       <br></br>
       <a className='btn1' href='https://drive.google.com/file/d/1UqhRbhFui7JAEyU5mZeifOhwimuUF4RX/view?usp=drivesdk'>View CV</a>
-      <a className='btn2' href='https://portfolio-app-jdq6.vercel.app/contact'>Contact Info</a>
+      <a className='btn2' href='/contact'>Contact Info</a>
     </div>
     <br></br>
     <div className='imgset1'>
