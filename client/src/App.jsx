@@ -17,8 +17,8 @@ const App = () => {
       <Route path='/experiance' element={<Experiance/>}></Route>
       <Route path='/about' element={<About/>}></Route>
       <Route path='/projects' element={<Project/>}></Route>
-      <Route path='https://portfolio-app-jdq6.vercel.app/contact' element={<Contact/>}></Route>
-      <Route path='/admine' element={<Admine/>}></Route>
+      <Route path='/contact' element={<Contact/>}></Route>
+      <Route path='https://portfolio-app-jdq6.vercel.app/admine' element={<Admine/>}></Route>
     </Routes>
     </BrowserRouter>
     </>
