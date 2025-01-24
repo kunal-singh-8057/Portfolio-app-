@@ -6,7 +6,7 @@ const Pset = () => {
     const[data,setdata] = useState([]);
 
     useEffect(()=>{
-        Axios.get("http://localhost:4500/api/v1/viewprojects").then((response)=>{
+        Axios.get("https://portfolio-app-mu-nine.vercel.app/viewprojects").then((response)=>{
             setdata(response.data)
         }).catch((error)=>{
             console.log(error)
