@@ -13,6 +13,8 @@ const Admine = () => {
 
   const[users,setusers] = useState([]);
 
+  Axios.defaults.withCredentials = true
+
   const addp = ()=>{
     Axios.post("https://portfolio-app-ecru-pi.vercel.app/addprojects",{
       name:name,
