@@ -6,7 +6,7 @@ const Pset = () => {
     const[users,setusers] = useState([]);
 
     useEffect(()=>{
-        Axios.get("https://portfolio-app-mu-nine.vercel.app/viewprojects").then((response)=>{
+        Axios.get("https://portfolio-app-ecru-pi.vercel.app/viewprojects").then((response)=>{
             setusers(response.data)
         }).catch((error)=>{
             console.log(error)

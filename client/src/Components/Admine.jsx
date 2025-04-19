@@ -14,7 +14,7 @@ const Admine = () => {
   const[users,setusers] = useState([]);
 
   const addp = ()=>{
-    Axios.post("https://portfolio-app-mu-nine.vercel.app/addprojects",{
+    Axios.post("https://portfolio-app-ecru-pi.vercel.app/addprojects",{
       name:name,
       glink:glink,
       wlink:wlink,
@@ -28,14 +28,14 @@ const Admine = () => {
 
 
   useEffect(()=>{
-    Axios.get("https://portfolio-app-mu-nine.vercel.app/viewprojects")
+    Axios.get("https://portfolio-app-ecru-pi.vercel.app/viewprojects")
     .then((response)=>{
       setusers(response.data)
     })
   },[])
 
   const del = (id)=>{
-    Axios.delete("https://portfolio-app-mu-nine.vercel.app/deleteprojects/"+id)
+    Axios.delete("https://portfolio-app-ecru-pi.vercel.app/deleteprojects/"+id)
     .then(()=>{
       alert("Project Deleted successfully")
     })
