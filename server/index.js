@@ -9,7 +9,7 @@ const router = require("../server/Routes/userRoutes");
 
 
 app.use(cors({
-    origin:["*"],
+    origin:["https://portfolio-app-7k4z.vercel.app/"],
     credentials:true
 }));
 
