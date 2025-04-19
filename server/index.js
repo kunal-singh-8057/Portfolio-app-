@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 const router = require("../server/Routes/userRoutes");
 
 app.use(cors({
-    origin:["https://portfolio-app-ecru-pi.vercel.app"],
+    origin:["https://portfolio-app-7k4z.vercel.app"],
     credentials:true
 }));
 
@@ -17,6 +17,10 @@ app.use(express.json());
 app.use(router);
 
 connectDB();
+
+app.get("/",async(rqe,res)=>{
+    res.json("Hello")
+})
 
 app.listen(`${PORT}`,()=>{
     console.log(`The server is running at : http://localhost:${PORT}`)
