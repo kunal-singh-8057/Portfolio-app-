@@ -7,7 +7,10 @@ const connectDB = require("../server/Utils/db");
 const bodyParser = require("body-parser");
 const router = require("../server/Routes/userRoutes");
 
-app.use(cors());
+app.use(cors({
+    origin:["https://portfolio-app-ecru-pi.vercel.app"],
+    credentials:true
+}));
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json());
