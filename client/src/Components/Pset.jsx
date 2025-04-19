@@ -3,11 +3,11 @@ import Axios from 'axios'
 import  '../Styles/pset.css'
 
 const Pset = () => {
-    const[data,setdata] = useState([]);
+    const[users,setusers] = useState([]);
 
     useEffect(()=>{
-        Axios.get("http://localhost:4500/api/v1/viewprojects").then((response)=>{
-            setdata(response.data)
+        Axios.get("https://portfolio-app-mu-nine.vercel.app/viewprojects").then((response)=>{
+            setusers(response.data)
         }).catch((error)=>{
             console.log(error)
         })
@@ -17,8 +17,8 @@ const Pset = () => {
   return (
     <>
     <div className='s1'>
-        {
-            data.map((user)=>{
+    {
+            users.map((user)=>{
                 return(
                     <div className='ss1'>
                         <img src={user.ilink} className='iilinks'></img>
@@ -30,7 +30,12 @@ const Pset = () => {
                 )
             })
         }
-        </div>
+    </div>
+ 
+   <br></br>
+   <br></br>
+
+    
     </>
   )
 }

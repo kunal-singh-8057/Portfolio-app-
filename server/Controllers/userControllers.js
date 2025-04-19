@@ -10,9 +10,10 @@ const addprojects = async(req,res)=>{
 }
 
 const viewprojects = async(req,res)=>{
-     await projectmodels.find()
-     .then(user=>res.json(user))
-     .catch(err=>res.json(err))
+     
+ await projectmodels.find()
+    .then(user=>res.json(user))
+    .catch(err=>res.json(err))
 }
 
 const deleteprojects = async(req,res)=>{
