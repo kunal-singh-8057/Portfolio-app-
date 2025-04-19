@@ -7,7 +7,11 @@ const connectDB = require("../server/Utils/db");
 const bodyParser = require("body-parser");
 const router = require("../server/Routes/userRoutes");
 
-app.use(cors());
+
+app.use(cors({
+    origin:["*"],
+    credentials:true
+}));
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json());
