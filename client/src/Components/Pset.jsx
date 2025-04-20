@@ -5,7 +5,7 @@ import  '../Styles/pset.css'
 const Pset = () => {
     const[users,setusers] = useState([]);
 
-    Axios.defaults.withCredentials = true
+   
 
     useEffect(()=>{
         Axios.get("https://portfolio-app-ecru-pi.vercel.app/viewprojects").then((response)=>{
