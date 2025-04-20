@@ -59,12 +59,25 @@
 
     .s1{
         display: block;
-        margin-left: 19%;
+        margin-left: 15%;
+        width: 100%;
     }
 
     .ss1
     {
-        width: 65%;
-        height: 24vh;
+        width: 70%;
+        height: 50vh;
+        margin-top: 5%;
+    }
+
+    .ss1 a{
+        display: grid;
+        padding: 4px 2px;
+        width: 50%;
+        margin-top: 5%;
+       background-color: black;
+       color: white;
+       place-items: center;
+       margin-left: 25%;
     }
 }
