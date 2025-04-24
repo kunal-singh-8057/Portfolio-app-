@@ -18,7 +18,7 @@ const Home = () => {
       <h2>Full Stack Dev</h2>
       <br></br>
       <br></br>
-      <a className='btn1' href='https://drive.google.com/file/d/1UqhRbhFui7JAEyU5mZeifOhwimuUF4RX/view?usp=drivesdk'>View CV</a>
+      <a className='btn1' href='https://drive.google.com/file/d/1kwJXkUVyclOwbHTwKb6Qns_6-C3pQKBC/view?usp=drivesdk'>View CV</a>
       <a className='btn2' href='/contact'>Contact Info</a>
     </div>
     <br></br>
